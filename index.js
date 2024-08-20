@@ -7,6 +7,6 @@ function cm(){
 function In(){
     let a=Number(document.getElementById("two").value);
     let b=(a/2.54).toFixed(3);
-    document.getElementById("result").textContent=b+"I n";
+    document.getElementById("result").textContent=b+"In";
       document.getElementById("result").style.color="green";
 }
